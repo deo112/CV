@@ -6,7 +6,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: center;
     width: 1200px;
     margin: 0 auto;
     background: #ffffff;
@@ -75,6 +75,93 @@ aside {
     color: #ffffff;
 }
 .techs {
-    font-weight: 1000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
     color: red;
+}
+
+main {
+    padding-left: 88px;
+    padding-top: 102px;
+    padding-right: 102px;
+    padding-bottom: 88px;
+}
+.main-description {
+    width: 400px;
+}
+.job-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+}
+.my-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 40px;
+}
+.projects {
+    width: 485px;
+    margin-bottom: 51px;
+}
+.projects-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 0; 
+    list-style-position: inside;
+}
+.projects-list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+}
+.projects-header {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+.job-position {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.job-color {
+    color: #fb6d3a;
+}
+.job-time {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+.job-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding-left: 0px;
+    list-style-position: inside;
+}
+.education-item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fb6d3a;
+}
+.education-desc {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
 }
